@@ -1,14 +1,14 @@
 @mixin col($breakpoint, $size){
 	@if $breakpoint != ""{
 		.col-#{$breakpoint}-#{$size}{
-			width: $size*100%/12 - 2*$gutter;
+			width: calc(#{$size}/12*100% - 2*#{$gutter});
 			float: right;
 			border: 1px solid #000;
 			margin: 0 $gutter;
 		}
 	} @else {
 		.col-#{$size}{
-			width: $size*100%/12 - 2*$gutter;
+			width: calc(#{$size}/12*100% - 2*#{$gutter});
 			float: right;
 			border: 1px solid #000;
 			margin: 0 $gutter;
