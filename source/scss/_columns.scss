@@ -1,0 +1,11 @@
+@for $i from 1 through 12{
+	@include col("", $i);
+}
+
+@each $break, $val in $breakpoint{
+	@media(min-width: $val){
+		@for $i from 1 through 12{
+			@include col($break, $i);
+		}
+	}
+}

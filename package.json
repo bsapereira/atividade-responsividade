@@ -1,0 +1,22 @@
+{
+  "name": "atividade-responsividade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsapereira/atividade-responsividade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsapereira/atividade-responsividade/issues"
+  },
+  "homepage": "https://github.com/bsapereira/atividade-responsividade#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
